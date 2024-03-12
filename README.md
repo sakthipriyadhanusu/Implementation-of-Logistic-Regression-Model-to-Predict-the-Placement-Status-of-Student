@@ -21,6 +21,7 @@ Program to implement the the Logistic Regression Model to Predict the Placement 
 Developed by: SAKTHI PRIYA D
 RegisterNumber: 212222040139
 */
+```
 import pandas as pd
 data=pd.read_csv('/content/Placement_Data.csv')
 data.head()
@@ -63,6 +64,7 @@ print("\nClassification Peport:\n",cr)
 from sklearn import metrics
 cm_display = metrics.ConfusionMatrixDisplay(confusion_matrix=confusion,display_labels=[True,False])
 cm_display.plot()
+```
 
 ## Output:
 ![Screenshot 2024-03-12 160911](https://github.com/sakthipriyadhanusu/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119393194/92498763-a6c8-49da-94e0-8e16e8f6d386)
